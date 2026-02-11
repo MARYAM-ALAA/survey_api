@@ -1,11 +1,1 @@
 fastapi
-uvicorn
-joblib
-pandas
-scikit-learn
-numpy
-matplotlib
-seaborn
-
-
-shap
