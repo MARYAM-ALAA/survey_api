@@ -49,14 +49,14 @@ class SurveyInput(BaseModel):
     FeedingAbility: str
     HasChestIndrawing: str
 
-    HasNasalFlaring: bool
-    HasCyanosis: bool
+    HasNasalFlaring: str
+    HasCyanosis: str
 
-    FatigueStatus: bool
+    FatigueStatus: str
     CanCompleteMealWithoutStopping: str
 
-    HasWeakCry: bool
-    HasSevereRunnyNoseWithBreathingDifficulty: bool
+    HasWeakCry: str
+    HasSevereRunnyNoseWithBreathingDifficulty: str
 
     RecurrentIssues: str
     HeartCondition: str
@@ -80,6 +80,7 @@ def predict(data: SurveyInput):
 
 
 # In[ ]:
+
 
 
 
