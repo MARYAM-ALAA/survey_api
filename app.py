@@ -44,7 +44,7 @@ class SurveyInput(BaseModel):
     PhlegmStatus: str
     CoughSeverity: str
 
-    HasAbnormalBreathingSound: bool
+    HasAbnormalBreathingSound: str
     BreathingEffort: str
     FeedingAbility: str
     HasChestIndrawing: str
@@ -80,6 +80,7 @@ def predict(data: SurveyInput):
 
 
 # In[ ]:
+
 
 
 
