@@ -33,8 +33,7 @@ LABELS = {
 # Pydantic Schema
 # =========================
 class SurveyInput(BaseModel):
-    Age: int
-    Gender: str
+  
 
     FeverDuration: str
     FeverLevel: str
@@ -81,6 +80,7 @@ def predict(data: SurveyInput):
 
 
 # In[ ]:
+
 
 
 
