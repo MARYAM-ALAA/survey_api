@@ -58,7 +58,7 @@ class SurveyInput(BaseModel):
     HasWeakCry: bool
     HasSevereRunnyNoseWithBreathingDifficulty: bool
 
-    RecurrentIssues: str
+    RecurrentChestIssues: str
     HeartCondition: str
 
 # =========================
@@ -80,6 +80,7 @@ def predict(data: SurveyInput):
 
 
 # In[ ]:
+
 
 
 
